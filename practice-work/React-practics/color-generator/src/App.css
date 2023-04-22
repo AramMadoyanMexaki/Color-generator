@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+}
+
+.color-btn {
+  padding: 20px 30px;
+  font-size: 25px;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  transition: background 0.3s ease;
+}
+
+.color-btn:active {
+  background-color: rgba(0, 0, 0, 0.1);
+}
